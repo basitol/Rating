@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Style -->
+    <link rel="stylesheet" href="./scss/style.css">
+    <!-- End style -->
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet" />
+    <!-- fonts End -->
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav flex">
+            <a href="#">
+                <img src="./img/back.svg" alt="" />
+            </a>
+            <h4>Rate Us</h4>
+        </nav>
+        <div class="container">
+            <div class="text">
+                <p>Please ensure the information you provide is accurate</p>
+            </div>
+            <div class="happy">
+                <h6>Are you Happy with Us?</h6>
+            </div>
+            <form action="Submit">
+                <ul>
+                    <li>
+                        <input type="radio" id="f-option" name="selector">
+                        <label for="f-option">No</label>
+
+                        <div class="check"></div>
+                    </li>
+
+                    <li>
+                        <input type="radio" id="s-option" name="selector">
+                        <label for="s-option">Yes</label>
+
+                        <div class="check">
+                            <div class="inside"></div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <input type="radio" id="t-option" name="selector">
+                        <label for="t-option">Can’t Say</label>
+
+                        <div class="check">
+                            <div class="inside"></div>
+                        </div>
+                    </li>
+                </ul>
+
+            </form>
+
+        </div>
+        <button class="submit">Submit</button>
+    </header>
+</body>
+
+</html>

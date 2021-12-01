@@ -1,0 +1,168 @@
+@media only screen and (min-width: 640px) {
+  body {
+    display: none;
+  }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #f9f9ff;
+}
+
+header {
+  height: 132px;
+  width: 100vw;
+  padding: 19px 15px;
+  border-radius: 0 0 15px 15px;
+  background: linear-gradient(342deg, #5f22cb 70%, #f12df5 140%);
+  font-family: "DM Sans", sans-serif;
+}
+
+header nav {
+  margin-left: 6px;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+header nav a {
+  margin-right: 20px;
+  padding-top: 5px;
+}
+
+header .container {
+  height: 507px;
+  width: 100%;
+  margin-top: 45px;
+  padding: 34px 8% 0;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+header .container .text {
+  padding: 0 20px;
+}
+
+header .container .text p {
+  font-size: 15px;
+  text-align: center;
+  color: rgba(57, 37, 95, 0.7);
+}
+
+header .container .happy {
+  margin-top: 55px;
+}
+
+header .container .happy h6 {
+  font-size: 14px;
+  color: #4c4079;
+  text-transform: uppercase;
+}
+
+header .container form {
+  display: block;
+  position: relative;
+  margin: 21px auto;
+  height: auto;
+}
+
+header .container form ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header .container form ul li {
+  display: block;
+  position: relative;
+  height: 52px;
+  -webkit-box-shadow: 0px 1px 8px rgba(18, 78, 233, 0.12);
+          box-shadow: 0px 1px 8px rgba(18, 78, 233, 0.12);
+  border-radius: 5px;
+  color: rgba(76, 64, 121, 0.6);
+}
+
+header .container form ul li input[type="radio"] {
+  position: absolute;
+  visibility: hidden;
+}
+
+header .container form ul li label {
+  display: block;
+  position: relative;
+  font-weight: 300;
+  font-size: 15px;
+  padding: 16px 25px 25px 52px;
+  margin: 10px auto;
+  height: 30px;
+  z-index: 9;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+header .container form ul li .check {
+  display: block;
+  position: absolute;
+  border: 2px solid #aaaaaa;
+  border-radius: 100%;
+  height: 15px;
+  width: 15px;
+  top: 18px;
+  left: 20px;
+  z-index: 5;
+}
+
+header .container form ul li .check::before {
+  display: block;
+  position: absolute;
+  content: "";
+  border-radius: 100%;
+  height: 15px;
+  width: 15px;
+  top: 5px;
+  left: 5px;
+  margin: auto;
+}
+
+header .submit {
+  width: 80%;
+  height: 60px;
+  margin: 90px 10% 30px;
+  background: #5f22cb;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+input[type="radio"]:checked ~ .check {
+  background: #01ae13;
+  border: 2px solid #01ae13;
+}
+
+input[type="radio"]:checked ~ .check::before {
+  position: absolute;
+  top: 2.5px;
+  left: 1.3px;
+  background-repeat: no-repeat;
+  background-image: url("../img/checks.svg");
+}
+
+input[type="radio"]:checked ~ label {
+  color: #4c4079;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=style.css.map */
